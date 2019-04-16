@@ -256,28 +256,10 @@ class Bitmap(object):
 
 r = Bitmap(800, 800, 0, 0)
 
-r.glLine(10, 10, 510, 10)
-r.glLine(10, 10, 462, 191)
-r.glLine(10, 10, 364, 364)
-r.glLine(10, 10, 191, 462)
-r.glLine(10, 10, 10, 510)
-
-r.glLine(790, 590, 790, 90)
-r.glLine(790, 590, 609, 138)
-r.glLine(790, 590, 446, 246)
-r.glLine(790, 590, 338, 409)
-r.glLine(790, 590, 290, 590)
-
 r.glLine(10, 590, 510, 590)
 r.glLine(10, 590, 462, 409)
 r.glLine(10, 590, 354, 246)
 r.glLine(10, 590, 191, 138)
 r.glLine(10, 590, 10, 90)
 
-r.glLine(790, 10, 790, 510)
-r.glLine(790, 10, 609, 462)
-r.glLine(790, 10, 446, 354)
-r.glLine(790, 10, 338, 191)
-r.glLine(790, 10, 290, 10)
-
-r.write("Line1.bmp")
+r.write("Line3.bmp")
